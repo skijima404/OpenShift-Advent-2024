@@ -1,0 +1,89 @@
+---
+openapi: 3.0.2
+info:
+  title: Task API
+  version: 1.0.0
+paths:
+  /tasks:
+    get:
+      responses:
+        "200":
+          $ref: '#/components/responses/tasks'
+  /tasks/{id}:
+    get:
+      parameters:
+      - name: id
+        schema:
+          type: integer
+        in: path
+        required: true
+      responses:
+        "200":
+          $ref: '#/components/responses/task'
+components:
+  schemas:
+    task:
+      description: /tasks 用データタイプ。
+      required:
+      - name
+      - pri
+      - status
+      - id
+      type: object
+      properties:
+        name:
+          description: タスク名
+          type: string
+          example: 機種変更
+        description:
+          description: |-
+            タスクの説明。
+            1=高、3=低
+          type: string
+          example: スマートフォンが古いので機種変更する
+        due:
+          format: date
+          description: 期日
+          type: string
+          example: 2024-12-31
+        pri:
+          description: 優先度
+          enum:
+          - "1"
+          - "2"
+          - "3"
+          type: string
+          example: "2"
+        status:
+          description: ステータス
+          enum:
+          - new
+          - wip
+          - completed
+          type: string
+          example: new
+        id:
+          description: ""
+          type: string
+    tasks:
+      description: ""
+      type: object
+      properties:
+        array:
+          description: ""
+          type: array
+          items:
+            $ref: '#/components/schemas/task'
+  responses:
+    task:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/tasks'
+      description: ""
+    tasks:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/tasks'
+      description: ""
