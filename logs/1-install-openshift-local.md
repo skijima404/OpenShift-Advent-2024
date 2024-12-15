@@ -9,21 +9,21 @@
 
 インストーラー実行するとウィザードが出るので次へ次へ。
 
-[インストーラー実行](./images/1-2.png)
+![インストーラー実行](./images/1-2.png)
 
-[インストーラー実行](./images/1-3.png)
+![インストーラー実行](./images/1-3.png)
 
-[インストーラー実行](./images/1-4.png)
+![インストーラー実行](./images/1-4.png)
 
-[インストーラー実行](./images/1-5.png)
+![インストーラー実行](./images/1-5.png)
 
-[インストーラー実行](./images/1-6.png)
+![インストーラー実行](./images/1-6.png)
 
 インストールのためにローカルのAdminパスワードを求められた。
 
-[インストーラー実行](./images/1-7.png)
+![インストーラー実行](./images/1-7.png)
 
-[インストーラー実行](./images/1-8.png)
+![インストーラー実行](./images/1-8.png)
 
 ## セットアップ
 
@@ -42,9 +42,9 @@ crc setup
 
 この後30分くらいかかった。5GB程度のものをダウンロードして展開していた様子。
 
-[セットアップ](./images/1-9.png)
+![セットアップ](./images/1-9.png)
 
-[セットアップ](./images/1-10.png)
+![セットアップ](./images/1-10.png)
 
 ## インスタンス開始
 
@@ -54,9 +54,9 @@ crc setup
 crc start
 ```
 
-[インスタンス開始](./images/1-11.png)
+![インスタンス開始](./images/1-11.png)
 
-[インスタンス開始](./images/1-12.png)
+![インスタンス開始](./images/1-12.png)
 
 最後にアクセス情報が出る。
 
@@ -82,15 +82,15 @@ crc start
 オレオレ証明書かな。
 Advanced > Accept the Risk and Continue を2回ほどクリック。
 
-[Warning](./images/1-13.png)
+![Warning](./images/1-13.png)
 
 ログイン画面。
 
-[Login](./images/1-14.png)
+![Login](./images/1-14.png)
 
 developerでログイン。
 
-[developer home](./images/1-15.png)
+![developer home](./images/1-15.png)
 
 
 以上、ターミナルでコマンド2回叩いた。
