@@ -5,7 +5,7 @@
 [Red Hat OpenShift Localのインストール](https://docs.redhat.com/ja/documentation/red_hat_openshift_local/2.2/html/getting_started_guide/installing_gsg)
 インストーラー入手。
 
-[インストーラーダウンロード](./images/1-1.png)
+![インストーラーダウンロード](./images/1-1.png)
 
 インストーラー実行するとウィザードが出るので次へ次へ。
 
